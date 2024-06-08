@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- ======Google Fonts====== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <!-- ======Bootstrap & Font Awesome====== -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-color">
+
+
+    <nav>
+        <div class=" container-fluid px-5 navbar navbar-expand-lg bg-color shadow text-white border-body" data-bs-theme="dark">
+            <a class="navbar-brand ps-5 fs-3" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pe-5 " id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="btn btn-outline-warning" id="logout" onclick="logout()">
+                      <a class="nav-link active" aria-current="page" href="#">Logout</a>
+                  </button>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container my-5 text-center p-5 d-flex justify-content-center text-color">
+      <div>
+        <h1 id="welcomeUser"></h1>
+      </div>
+    </section>
+
+
+
+    <section class="container">
+        <div class="row" id="row">
+          
+        </div>
+    </section>
+
+    
+    
+    <!-- ======Bootstrap & JS====== -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

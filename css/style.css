@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.shadow {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.bg-color {
+    background-color: #24353f;
+}
+
+.text-color {
+    color: #17a2b8;
+}
+
+.container {
+    max-width: 80%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1{
+    font-size: 48px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border: none;
+    outline: 0;
+    box-shadow: 0 0 0 1px #17a2b8;
+}
+
+.btn-outline-info {
+    --bs-btn-hover-color: white;
+}
+
+#log-form p a {
+    text-decoration: none;
+    color: white;
+}
+
+#log-form p a:hover {
+    text-decoration: underline;
+}
+
+input::-webkit-input-placeholder {
+    color: #ced4da !important;
+}
+
+input:-moz-placeholder {
+    color: #ced4da !important;
+}
+
+.inputs-required {
+    color: rgb(212, 3, 3);
+    font-size: 20px;
+}
+
+.signup-success {
+    color: green;
+    font-size: 20px;
+}
+
